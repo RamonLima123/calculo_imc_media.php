@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulário</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.html">
+        <link rel="stylesheet" href="cal_media.php">
+    </head>
+    <body>
+        <h1>Vamos calcular a sua média ?</h1>
+       
+        <fieldset>
+
+            <legend>Informe as notas nos campos abaixo:</legend>
+
+        <Form action="cal_media.php" method="post">
+
+            <label for="idNome">Nome do aluno: </label><br>
+            <input type="text" name="nome" placeholder="ex: Márcio Araya"><br>
+            <label for="idNome">Primeira nota: </label><br>
+            <input type="text" name="n1" placeholder="ex 5.5"><br>
+            <label for="idNome">Segunda nota: </label><br>
+            <input type="text" name="n2"
+            placeholder="ex 10.0"><br><br>
+            <input type="submit" value="Enviar">
+        
+        </form>
+    </body>
+</html>
